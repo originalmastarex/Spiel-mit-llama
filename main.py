@@ -3,9 +3,9 @@ import pygame
 import sys
 #Variabeln
 
-lama_url = "https://212.132.112.15:11434/api/chat"
+llama_url = "https://212.132.112.15:11434/api/chat"
 
-lama_model = "llama3.1:8b-instruct-q5.K_M"
+llama_model = "llama3.1:8b-instruct-q5.K_M"
 
 prompt = "p"
 
@@ -24,7 +24,7 @@ prompt4 = "4"
 antwort = "a"
 
 data = {
-    "model":lama_model,
+    "model":llama_model,
     "messages":[
         {
             "role":"system",
