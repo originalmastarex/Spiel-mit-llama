@@ -52,10 +52,10 @@ def gespräch():
 
 def laufen():
   if ort == "title_screen":
-    if mouse and mouse:
+    if mouse_x and mouse_y:
       ort = "bedroom_1"
   if ort == "bedroom_1":
-    if mouse and mouse:
+    if mouse_x and mouse_y:
       ort = "hallway_1"
       
 
